@@ -1,4 +1,4 @@
-{% extends 'receitas/base.html' %}
+{% extends 'base.html' %}
 {% load static %}
 {% block content %}
 
@@ -31,6 +31,7 @@
         </div>
     </section>
     <!-- ##### Best Receipe Area End ##### -->
+   {% include 'receitas/partials/_paginacao.html' %} 
 
     {% include 'receitas/partials/_footer.html' %}
 {% endblock %}
